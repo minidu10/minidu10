@@ -6,7 +6,6 @@
   <a href="https://linkedin.com/in/minidu-dhananjana-427a81310"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:minidudhananjana@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/Location-Sri%20Lanka-2c5364?style=flat-square" alt="Sri Lanka" />
-  <img src="https://img.shields.io/badge/Open%20to-Internships-2ea44f?style=flat-square" alt="Open to internships" />
 </p>
 
 </div>
@@ -161,8 +160,6 @@ I'm an **Information Technology undergraduate at the University of Moratuwa**, S
 🏐 University volleyball · 🔌 Arduino and hardware tinkering · 🎵 Music
 
 <div align="center">
-
-**Open to internships and collaboration in backend, DevOps and cloud engineering — [let's connect](https://linkedin.com/in/minidu-dhananjana-427a81310).**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=90&section=footer" width="100%" alt="" />
 
