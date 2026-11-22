@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Minidu Dhananjana — Full-Stack, DevOps and Cloud, Applied AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d9ff"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+
+    <!-- Moving wave edge of the dark banner (period 600px, loops seamlessly) -->
+    <clipPath id="bannerClip">
+      <path d="M0 0 V186 c100 -30 200 -30 300 0 s200 30 300 0 c100 -30 200 -30 300 0 s200 30 300 0 c100 -30 200 -30 300 0 s200 30 300 0 c100 -30 200 -30 300 0 s200 30 300 0 V0 Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="12s" repeatCount="indefinite"/>
+      </path>
+    </clipPath>
+
+    <!-- Accent lines, drifting the opposite way for parallax -->
+    <mask id="lineMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="240">
+      <path d="M-600 200 c100 -26 200 -26 300 0 s200 26 300 0 c100 -26 200 -26 300 0 s200 26 300 0 c100 -26 200 -26 300 0 s200 26 300 0 c100 -26 200 -26 300 0 s200 26 300 0" fill="none" stroke="#fff" stroke-width="5">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="600 0" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0 212 c100 -22 200 -22 300 0 s200 22 300 0 c100 -22 200 -22 300 0 s200 22 300 0 c100 -22 200 -22 300 0 s200 22 300 0 c100 -22 200 -22 300 0 s200 22 300 0" fill="none" stroke="#fff" stroke-opacity="0.45" stroke-width="3">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="16s" repeatCount="indefinite"/>
+      </path>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="240" fill="url(#bg)" clip-path="url(#bannerClip)"/>
+  <rect width="1200" height="240" fill="url(#accent)" mask="url(#lineMask)" opacity="0.8"/>
+
+  <!-- Twinkling particles -->
+  <g fill="#9fe8ff">
+    <circle cx="90" cy="42" r="1.8"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="120" r="1.4"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="58" r="1.2"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="150" r="1.6"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="40" r="1.5"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="905" cy="132" r="1.2"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="70" r="1.8"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="128" r="1.3"><animate attributeName="opacity" values="0.75;0.1;0.75" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="34" r="1.1"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="40" cy="140" r="1.2"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.7s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Name: fades in and rises -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.9s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" begin="0.2s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/>
+    <text x="600" y="96" text-anchor="middle" fill="#ffffff"
+          font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif"
+          font-size="52" font-weight="700" letter-spacing="1">Minidu Dhananjana</text>
+  </g>
+
+  <!-- Underline: draws outward from the centre -->
+  <rect x="600" y="114" width="0" height="3" rx="1.5" fill="url(#accent)">
+    <animate attributeName="width" from="0" to="140" begin="0.9s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/>
+    <animate attributeName="x" from="600" to="530" begin="0.9s" dur="0.7s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/>
+  </rect>
+
+  <!-- Subtitle: fades in after the name -->
+  <text x="600" y="150" text-anchor="middle" fill="#cfe8f0" opacity="0"
+        font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif"
+        font-size="20" letter-spacing="2">FULL-STACK  •  DEVOPS &amp; CLOUD  •  APPLIED AI<animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.9s" fill="freeze"/></text>
+</svg>

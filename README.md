@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Minidu%20Dhananjana&fontSize=42&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20%E2%80%A2%20DevOps%20%26%20Cloud%20%E2%80%A2%20Applied%20AI&descSize=16&descAlignY=58" alt="Minidu Dhananjana — Full-Stack, DevOps & Cloud, Applied AI" width="100%" />
+<img src="./assets/header.svg" alt="Minidu Dhananjana — Full-Stack, DevOps & Cloud, Applied AI" width="100%" />
+
+<img src="./assets/typing.svg" alt="Building event-driven microservices · Shipping to AWS · Creating MCP tools · Turning ML models into production APIs" />
 
 <p>
   <a href="https://linkedin.com/in/minidu-dhananjana-427a81310"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -158,9 +160,3 @@ I'm an **Information Technology undergraduate at the University of Moratuwa**, S
 ## Beyond Code
 
 🏐 University volleyball · 🔌 Arduino and hardware tinkering · 🎵 Music
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=90&section=footer" width="100%" alt="" />
-
-</div>
