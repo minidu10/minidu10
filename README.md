@@ -19,7 +19,7 @@ I'm an **Information Technology undergraduate at the University of Moratuwa**, S
 - 🏗️ I design **backend systems and distributed services** with Java, Spring Boot and event-driven architecture.
 - ☁️ I ship what I build: **Docker, CI/CD with GitHub Actions, AWS, Terraform** and Linux server operations.
 - 🤖 I build **applied AI tools** — ML services, LLM integrations and MCP servers for AI coding assistants.
-- 📜 **AWS Certified Cloud Practitioner** · **Cisco Networking Basics**
+- 📜 **AWS Cloud Practitioner** · **Cisco Networking Basics**
 
 
 ---
